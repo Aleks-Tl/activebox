@@ -41,7 +41,7 @@ $(document).ready(function() {
         $('.overlay, .modal').fadeOut('slow');
     });
     $(window).scroll(function() {
-        if($(this).scrollTop() > 1600) {
+        if($(this).scrollTop() > 1000) {
             $('.pageup').fadeIn() 
         } else {
             $('.pageup').fadeOut();
